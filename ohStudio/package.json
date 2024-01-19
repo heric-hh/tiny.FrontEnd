@@ -1,0 +1,18 @@
+{
+  "name": "ohstudio",
+  "version": "1.0.0",
+  "description": "\"Recreation Page\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/styles.css --dir build",
+    "watch:css": "postcss src/styles.css --dir build -w"
+
+  },
+  "author": "eric hdz",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
+  }
+}
