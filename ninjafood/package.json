@@ -1,0 +1,17 @@
+{
+  "name": "ninjafood",
+  "version": "1.0.0",
+  "description": "tailwind css practice",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "eric hdz",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
